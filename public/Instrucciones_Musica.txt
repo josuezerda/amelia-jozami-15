@@ -1,0 +1,2 @@
+Grabá o descargá un archivo de música bonito (mp3) y ponelo en esta misma carpeta asegurándote que se llame exactamente 'music.mp3'.
+Cuando el invitado toque el botón "Abrir Invitación", esta canción empezará a sonar sola.
