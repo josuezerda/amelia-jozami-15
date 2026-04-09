@@ -24,4 +24,7 @@ def make_transparent_black(filepath):
         print(f"Error: {e}")
 
 if __name__ == "__main__":
-    make_transparent_black("/Users/josuezerda/Documents/Antigravity/Amelia Jozami/public/logo_3_es.png")
+    if len(sys.argv) > 1:
+        make_transparent_black(sys.argv[1])
+    else:
+        print("Please provide a file path as argument")

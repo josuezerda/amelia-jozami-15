@@ -80,7 +80,7 @@ function App() {
         <div className="envelope-wrapper animate-fade-up" onClick={!isOpened ? handleOpenInvitation : undefined}>
           <div className="envelope-container animate-fade-up">
              <img 
-               src="/logo_3_es.png" 
+               src="/amelia_logo_clean.png" 
                alt="Amelia Mis 15 Años Logo" 
                style={{ width: '100%', maxWidth: '300px', marginBottom: '2rem', filter: 'drop-shadow(0 4px 15px rgba(205,159,129,0.3))' }} 
              />
