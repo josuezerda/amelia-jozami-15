@@ -26,7 +26,7 @@ function App() {
   const wLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(wMessage)}`;
 
   // Cover photo and slider photos
-  const coverPhoto = 'DSC09065.jpg'; // Elegida como portada
+  const coverPhoto = 'portada.jpg'; // Elegida como portada
   const allPhotos = [
     'DSC08609.jpg', 'DSC08618.jpg', 'DSC08628.jpg', 'DSC08672.jpg', 
     'DSC08706.jpg', 'DSC08871.jpg', 'DSC08906.jpg', 'DSC08936.jpg', 
@@ -211,21 +211,7 @@ function App() {
           </div>
         </section>
 
-        {/* Carousel Galerìa Continua Marquee */}
-        <section className="section marquee-section">
-          <div className="section-divider"></div>
-          <h2 className="section-title script-font">Momentos</h2>
-          <div className="marquee-container">
-            <div className="marquee-track">
-              {/* Duplicamos el arreglo para el efecto infinito */}
-              {[...sliderPhotos, ...sliderPhotos].map((photo, i) => (
-                <div className="marquee-item" key={i}>
-                  <img src={`/photos/${photo}`} alt={`Amelia moment ${i}`} loading="lazy" />
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
+
 
         {/* Floating WhatsApp RSVP */}
         <a href={wLink} target="_blank" rel="noreferrer" className="whatsapp-fab">
