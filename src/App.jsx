@@ -204,9 +204,10 @@ function App() {
               </div>
               <p style={{ color: 'var(--color-text-muted)', lineHeight: '1.6', fontSize: '0.95rem' }}>
                 El mejor regalo es que compartas este día conmigo.<br/><br/>
-                Pero si deseás hacerme un presente, habrá un buzón en el salón o podés ayudarme a cumplir mi sueño transfiriendo a:<br/><br/>
-                <strong>CVU:</strong> 0000003100000852387841<br/>
-                <strong>Alias:</strong> ameliasarquiz
+                Pero si deseás hacerme un presente, te dejo mi cuenta:<br/><br/>
+                💳 <strong>Alias:</strong> ameliasarquiz<br/>
+                🏦 <strong>CVU:</strong> 0000003100000852387841<br/><br/>
+                ¡Muchísimas gracias de todo corazón! 💕
               </p>
           </div>
         </section>
