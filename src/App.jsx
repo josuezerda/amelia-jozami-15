@@ -154,19 +154,6 @@ function App() {
           <h2 className="section-title script-font">Detalles del Evento</h2>
           
           <div className="details-vertical">
-            {/* Misa */}
-            <div className="detail-block">
-              <div className="detail-icon-wrapper">
-                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M12 2v20M17 7v0M7 7v0M17 12H7"/></svg>
-              </div>
-              <h3 className="detail-title">Ceremonia Religiosa</h3>
-              <p className="detail-text">
-                <strong className="text-gold">Misa de Acción de Gracias</strong><br/>
-                6 de Mayo, 2026<br/>
-                Iglesia a confirmar - 19:00 Hs
-              </p>
-            </div>
-            <div className="detail-line"></div>
             {/* Fiesta */}
             <div className="detail-block">
               <div className="detail-icon-wrapper">
