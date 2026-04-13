@@ -79,11 +79,11 @@ function App() {
       <div className={`intro-overlay ${isOpened ? 'opened' : ''}`}>
         <div className="envelope-wrapper animate-fade-up" onClick={!isOpened ? handleOpenInvitation : undefined}>
           <div className="envelope-container animate-fade-up">
-             <img 
-               src="/amelia_logo_clean.png" 
-               alt="Amelia Mis 15 Años Logo" 
-               style={{ width: '100%', maxWidth: '300px', marginBottom: '2rem', filter: 'drop-shadow(0 4px 15px rgba(205,159,129,0.3))' }} 
-             />
+             <div className="text-center" style={{ marginBottom: '2rem' }}>
+                <div className="hero-subtitle script-font text-gold" style={{ fontSize: 'clamp(1.5rem, 6vw, 2.5rem)', marginBottom: '0.2rem' }}>Mis 15</div>
+                <h1 className="hero-title script-font" style={{ fontSize: 'clamp(4rem, 16vw, 7rem)', lineHeight: '1', margin: '0', color: '#cd9f81', textShadow: '0 4px 15px rgba(205,159,129,0.3)' }}>Amelia</h1>
+                <div style={{ fontFamily: 'var(--font-heading)', letterSpacing: '0.3em', fontSize: 'clamp(0.6rem, 2.5vw, 1rem)', textTransform: 'uppercase', color: '#cd9f81', marginTop: '0.5rem' }}>Sarquiz Jozami</div>
+             </div>
              
              {!isOpened && (
                <button className="btn btn-outline" style={{marginTop: '2rem', animation: 'fadeInUp 1s ease 1.5s forwards', opacity: 0}} onClick={(e) => { e.stopPropagation(); handleOpenInvitation(); }}>
@@ -191,6 +191,22 @@ function App() {
               </p>
               <a href={wLink} target="_blank" rel="noreferrer" className="btn btn-solid detail-btn">CONFIRMAR</a>
             </div>
+          </div>
+        </section>
+
+        {/* Música */}
+        <section className="section bg-dark">
+          <div className="section-divider"></div>
+          <h2 className="section-title script-font">Música</h2>
+          <div className="info-card" style={{ maxWidth: '600px', margin: '0 auto', textAlign: 'center', width: '100%' }}>
+              <div style={{ display: 'flex', justifyContent: 'center', color: 'var(--color-primary)', marginBottom: '1.5rem'}}>
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M9 18V5l12-2v13"/><path d="M9 18v2a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2z"/><path d="M21 16v2a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2z"/></svg>
+              </div>
+              <p style={{ color: 'var(--color-text-muted)', lineHeight: '1.6', fontSize: '0.95rem', marginBottom: '1.5rem' }}>
+                ¿Qué canción no puede faltar en la fiesta?<br/>
+                ¡Ayudame a armar la playlist ideal!
+              </p>
+              <a href={`https://wa.me/${whatsappNumber}?text=${encodeURIComponent("¡Hola! Quiero recomendar este temazo para la fiesta: ")}`} target="_blank" rel="noreferrer" className="btn btn-outline detail-btn" style={{ marginTop: '0' }}>SUGERIR CANCIÓN</a>
           </div>
         </section>
 
