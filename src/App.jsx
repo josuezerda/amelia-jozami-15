@@ -241,7 +241,7 @@ function App() {
         <footer className="footer">
           <p>&copy; 2026 - Amelia Mis 15 Años.</p>
           <p style={{ marginTop: '0.8rem', fontSize: '0.85rem' }}>
-            Copyright : <a href="https://fusionia.com.ar" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-primary)', textDecoration: 'none', fontWeight: 'bold' }}>Fusion IA</a>
+            Desarrollado con ♥ por <a href="https://fusionia.com.ar" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-primary)', textDecoration: 'none', fontWeight: 'bold' }}>Fusión IA</a> & <a href="https://www.instagram.com/fuegocreativo.ar/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-primary)', textDecoration: 'none', fontWeight: 'bold' }}>Fuego Creativo</a>
           </p>
         </footer>
 
